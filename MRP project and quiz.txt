@@ -1,0 +1,140 @@
+Please give a short tutorial on material requirements planning
+
+Sure! Here’s a short, practical tutorial on Material Requirements Planning (MRP)—no jargon overload, just the essentials.
+
+What is MRP?
+Material Requirements Planning (MRP) is a system used in manufacturing to figure out what materials you need, how much you need, and when you need them so production runs smoothly.
+Think of it as: “Don’t order too early, don’t order too late, and don’t order too much.”
+
+The 3 Core Inputs
+MRP relies on three key pieces of information:
+
+
+Master Production Schedule (MPS)
+What finished products you plan to make, and when.
+
+
+Bill of Materials (BOM)
+A “recipe” for each product—lists all parts, components, and quantities needed.
+
+
+Inventory Records
+What you already have on hand, what’s on order, and lead times for each item.
+
+
+
+How MRP Works (Step by Step)
+
+
+Start with demand
+From the MPS, determine how many finished products are needed per time period.
+
+
+Explode the BOM
+Break each product into required components (and sub-components).
+
+
+Check inventory
+Subtract what’s already in stock or scheduled to arrive.
+
+
+Account for lead times
+Move requirements backward in time so materials arrive right when needed.
+
+
+Generate planned orders
+Create purchase orders or production orders for materials.
+
+
+
+Simple Example
+You want to build 100 bicycles next month.
+
+
+Each bicycle needs:
+
+
+2 wheels
+
+
+1 frame
+
+
+
+
+You have:
+
+
+120 wheels in stock
+
+
+20 frames in stock
+
+
+
+
+MRP calculation:
+
+
+Wheels needed: 200 − 120 = 80 wheels to order
+
+
+Frames needed: 100 − 20 = 80 frames to order
+
+
+If wheels take 2 weeks to arrive, MRP schedules the order 2 weeks before production.
+
+
+
+Key Benefits
+
+
+Reduces excess inventory 📉
+
+
+Prevents stockouts 🚫
+
+
+Improves production scheduling ⏱️
+
+
+Lowers overall costs 💰
+
+
+
+Common Limitations
+
+
+Requires accurate data (bad data = bad plans)
+
+
+Doesn’t handle sudden demand changes well
+
+
+Traditional MRP doesn’t consider capacity constraints
+
+
+
+MRP vs. ERP (Quick Note)
+
+
+MRP → Focused on materials & production planning
+
+
+ERP → MRP + finance, HR, sales, logistics, and more
+
+
+
+If you want, I can:
+
+
+Walk through a spreadsheet-style MRP example
+
+
+Explain MRP vs JIT vs Kanban
+
+
+Show how MRP is used in real companies or ERP systems (SAP, Oracle, etc.)
+
+
+Just say the word 🙂
