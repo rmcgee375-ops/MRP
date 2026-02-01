@@ -1,1 +1,62 @@
-quiz coming
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MRP Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Material Requirements Planning (MRP) Quiz</h1>
+
+    <form id="quiz-form">
+      <div class="question">
+        <p>1. In automotive manufacturing, why is MRP critical?</p>
+        <label><input type="radio" name="q1" value="A"> To design new vehicle models</label>
+        <label><input type="radio" name="q1" value="B"> To prevent assembly line stoppages caused by missing parts</label>
+        <label><input type="radio" name="q1" value="C"> To eliminate the need for suppliers</label>
+        <label><input type="radio" name="q1" value="D"> To reduce the number of car models produced</label>
+      </div>
+
+      <div class="question">
+        <p>2. How do electronics companies like Apple or Dell typically use MRP?</p>
+        <label><input type="radio" name="q2" value="A"> Only after customer orders are finalized</label>
+        <label><input type="radio" name="q2" value="B"> To replace demand forecasting entirely</label>
+        <label><input type="radio" name="q2" value="C"> To plan for long-lead components and run what-if scenarios</label>
+        <label><input type="radio" name="q2" value="D"> To manage employee scheduling</label>
+      </div>
+
+      <div class="question">
+        <p>3. In consumer packaged goods companies, what problem does MRP help avoid?</p>
+        <label><input type="radio" name="q3" value="A"> Overtraining factory workers</label>
+        <label><input type="radio" name="q3" value="B"> Having finished product but missing packaging or labels</label>
+        <label><input type="radio" name="q3" value="C"> Excessive product customization</label>
+        <label><input type="radio" name="q3" value="D"> High product defect rates</label>
+      </div>
+
+      <div class="question">
+        <p>4. Why is MRP especially complex in aerospace and defense manufacturing?</p>
+        <label><input type="radio" name="q4" value="A"> Products are built with very few parts</label>
+        <label><input type="radio" name="q4" value="B"> Demand changes hourly</label>
+        <label><input type="radio" name="q4" value="C"> Production cycles are short</label>
+        <label><input type="radio" name="q4" value="D"> BOMs are deep and parts require traceability and compliance</label>
+      </div>
+
+      <div class="question">
+        <p>5. In small and mid-size manufacturers, how is MRP most often used in practice?</p>
+        <label><input type="radio" name="q5" value="A"> Fully automated with no human intervention</label>
+        <label><input type="radio" name="q5" value="B"> As a decision-support tool reviewed and adjusted by planners</label>
+        <label><input type="radio" name="q5" value="C"> Only once per year during budgeting</label>
+        <label><input type="radio" name="q5" value="D"> Exclusively for accounting purposes</label>
+      </div>
+
+      <button type="submit">Submit Quiz</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
